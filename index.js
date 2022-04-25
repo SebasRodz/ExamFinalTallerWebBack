@@ -8,7 +8,7 @@ const cors = require("cors");
 
 const app = express();
 
-app.use(cors({ origin: "https://examfinal-taller-app.herokuapp.com/" }));
+app.use(cors({ origin: "https://examfinal-taller-back.herokuapp.com/" }));
 app.use(express.json());
 
 //lo que llega procedente del frontend.
